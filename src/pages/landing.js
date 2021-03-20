@@ -12,7 +12,7 @@ return (
 		height: '100vh'
 	}} 
 	> 
-	<h1>Landing</h1> 
+	<h1>Landing page</h1> 
     <Calendar />
 	</div> 
 ); 
