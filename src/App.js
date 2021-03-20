@@ -10,12 +10,14 @@ import Features from './pages/features';
 import Pricing from './pages/pricing';
 import Something from './pages/something';
 import Landing from './pages/landing';
+import Footer from './components/Footer';
 
 function App() { 
 return ( 
 	<Router> 
 	<Navbar /> 
 	<Switch> 
+		<Route path='/' exact component={Home} /> 
 		<Route path='/homepage' exact component={Home} /> 
 		<Route path='/about' component={About} /> 
 		<Route path='/pricing' component={Pricing} /> 
@@ -25,7 +27,9 @@ return (
 		<Route path='/signup' component={SignUp} /> 
 		<Route path='/landing' component={Landing}/>
 	</Switch> 
+	<Footer/>
 	</Router> 
+	
 ); 
 } 
 

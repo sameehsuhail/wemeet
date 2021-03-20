@@ -1,5 +1,4 @@
 import React from 'react'; 
-import Calendar from 'react-calendar';
 import { ScheduleMeeting } from 'react-schedule-meeting';
 
 
@@ -22,7 +21,8 @@ return (
 		height: '100vh'
 	}} 
 	> 
-	<h1>Landing page</h1> 
+	<h1>Select meeting timings</h1> 
+	
 	<ScheduleMeeting
         borderRadius={10}
         primaryColor="#3f5b85"
