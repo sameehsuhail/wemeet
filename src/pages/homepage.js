@@ -10,7 +10,9 @@ return (
 		height: '100vh'
 	}} 
 	> 
-	<h1>We Meet. Anywhere.<br/> Anytime</h1> 
+	<h1 style={{ color: "#6D7175",
+	textAlign:"justified",
+				marginTop: "-50px" }}>We Meet. Anywhere.<br/> Anytime</h1> 
 	</div> 
 ); 
 }; 

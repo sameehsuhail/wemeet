@@ -9,6 +9,7 @@ FooterLink,
 const Footer = () => { 
 return ( 
 	<Box> 
+    <br/>
 	<Container> 
 		<Row> 
 			<FooterLink href="#about">About Us</FooterLink> 

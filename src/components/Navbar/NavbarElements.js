@@ -54,7 +54,7 @@ color: #FFFFF;
 export const NavMenu = styled.div` 
 display: flex; 
 align-items: center; 
-margin-right: -24px; 
+margin-right: 280px; 
 /* Second Nav */
 /* margin-right: 24px; */
 /* Third Nav */
@@ -69,7 +69,7 @@ white-space: nowrap; */
 export const NavBtn = styled.nav` 
 display: flex; 
 align-items: center; 
-margin-right: 24px; 
+margin-right: -100px; 
 /* Third Nav */
 /* justify-content: flex-end; 
 width: 100vw; */
