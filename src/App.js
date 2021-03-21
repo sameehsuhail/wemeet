@@ -10,6 +10,7 @@ import Features from './pages/features';
 import Pricing from './pages/pricing';
 import Something from './pages/something';
 import Landing from './pages/landing';
+import Dashboard from './pages/dashboard';
 import Footer from './components/Footer';
 
 function App() { 
@@ -26,6 +27,7 @@ return (
     	<Route path='/login' component={LogIn} /> 
 		<Route path='/signup' component={SignUp} /> 
 		<Route path='/landing' component={Landing}/>
+		<Route path='/dashboard' component={Dashboard} />
 	</Switch> 
 	<Footer/>
 	</Router> 
