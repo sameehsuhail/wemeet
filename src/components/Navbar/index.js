@@ -20,9 +20,9 @@ return (
 		<h1>WeMeet</h1>
 		</NavLink> 
 
-        <NavLink to='/something' activeStyle> 
+        {/* <NavLink to='/something' activeStyle> 
 			Something
-		</NavLink> 
+		</NavLink>  */}
 		<NavLink to='/features' activeStyle> 
 			Features
 		</NavLink> 

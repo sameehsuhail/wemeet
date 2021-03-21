@@ -8,7 +8,7 @@ import SignUp from './pages/signup';
 import LogIn from './pages/login'; 
 import Features from './pages/features';
 import Pricing from './pages/pricing';
-import Something from './pages/something';
+// import Something from './pages/something';
 import Landing from './pages/landing';
 import Dashboard from './pages/dashboard';
 import Footer from './components/Footer';
@@ -23,7 +23,7 @@ return (
 		<Route path='/about' component={About} /> 
 		<Route path='/pricing' component={Pricing} /> 
 		<Route path='/features' component={Features} /> 
-		<Route path='/something' component={Something} /> 
+		{/* <Route path='/something' component={Something} />  */}
     	<Route path='/login' component={LogIn} /> 
 		<Route path='/signup' component={SignUp} /> 
 		<Route path='/landing' component={Landing}/>
