@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 export const NavBtn = styled.nav` 
 display: flex; 
+
 align-items: center; 
 margin-right: 24px; 
 /* Third Nav */
