@@ -17,7 +17,9 @@ return (
 		<NavMenu> 
 
 		<NavLink to='/homepage' id="logo" activeStyle> 
-		<h1>WeMeet</h1>
+		<h2 style={{ 
+		color:"#808080",
+		paddingTop: 5}} >WeCollab</h2>
 		</NavLink> 
 
         {/* <NavLink to='/something' activeStyle> 
@@ -32,6 +34,7 @@ return (
 		<NavLink to='/about' activeStyle> 
 			About
 		</NavLink> 
+
 		
 		</NavMenu> 
 

@@ -20,7 +20,7 @@ return (
 	<Switch> 
 		<Route path='/' exact component={Home} /> 
 		<Route path='/homepage' exact component={Home} /> 
-		<Route path='/about' component={About} /> 
+		<Route path='/about' component={About} />  
 		<Route path='/pricing' component={Pricing} /> 
 		<Route path='/features' component={Features} /> 
 		{/* <Route path='/something' component={Something} />  */}

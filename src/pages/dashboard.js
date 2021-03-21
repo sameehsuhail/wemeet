@@ -20,7 +20,7 @@ const Dashboard = () => {
                 <tbody>
                     <tr>
                         
-                        <td>Task 1</td>
+                        <td>Task 1 dsfsdfdsfsdfsfdsfsd</td>
 
                     </tr>
                     <tr>
