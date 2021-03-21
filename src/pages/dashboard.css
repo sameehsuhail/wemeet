@@ -1,8 +1,25 @@
-.ongoing{
+.table{
     display: inline-block;
     height:10%;
    
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top:2%;
-    text-align: center;
+    text-align: left;
+  
+   
+
+
 }
+
+td {
+   padding-right: 20px;
+    border: 1px solid #666;
+   
+}
+tr:nth-child(1) {
+    background-color:#B8DAFF; 
+    outline-style: solid;
+}
+
+
+ 

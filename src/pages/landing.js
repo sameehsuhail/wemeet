@@ -18,7 +18,8 @@ return (
 		display: 'flex', 
 		justifyContent: 'Right', 
 		alignItems: 'Right', 
-		height: '100vh'
+		height: '100vh',
+		flexDirection: 'column'
 	}} 
 	> 
 	<h1>Select meeting timings</h1> 
